@@ -1,0 +1,59 @@
+#http://docs.typo3.org/typo3cms/TyposcriptSyntaxReference/TypoScriptTemplates/TheConstantEditor/Index.html
+
+
+TSConstantEditor.wauenetdefaultsetup {
+  header = Standard Template "BUSINESS"
+  description = BUSINESS is a frame-based template in a very simple layout, based on ....
+  bulletlist = Left-frame image in the top. The dimensions are fixed to ....
+  #image = gfx/BUSINESS_basic.gif
+
+
+}
+
+
+
+# cat=wauenetdefaultsetup; type=options[Bootstrap,Foundation]; label= Framework wählen?
+wn.framework = Bootstrap
+
+
+
+
+# cat=wauenetdefaultsetup; type=boolean; label= Modernizr laden?
+wn.includeModernizr = 1
+
+
+# cat=wauenetdefaultsetup; type=boolean; label= JQuery laden?
+wn.includeJQuery = 1
+
+
+# cat=wauenetdefaultsetup; type=boolean; label= JQueryUI laden?
+wn.includeJQueryUI = 0
+
+
+# cat=wauenetdefaultsetup; type=boolean; label= IE8 unterstützen? (bei Foundation nur begrenzt möglich)
+wn.supportIE8 = 1
+
+
+
+######################
+#SliderHome
+######################
+# customsubcategory=orbithome=Slider
+
+
+# cat=wauenetdefaultsetup/orbithome; type=options[SlickSlider]; label= Slider wählen?
+wn.orbitHome.slider.type = SlickSlider
+
+# cat=wauenetdefaultsetup/orbithome; type=string; label= Sliderbreite
+wn.orbitHome.slider.w = 1000c
+# cat=wauenetdefaultsetup/orbithome; type=string; label= Sliderhöhe
+wn.orbitHome.slider.h = 420c-100
+# cat=wauenetdefaultsetup/orbithome; type=string; label= Sliderhöhe (CSS)
+wn.orbitHome.slider.hcss = 420px
+
+# cat=wauenetdefaultsetup/orbithome; type=string; label= 3Boxen Bildhöhe
+wn.orbitHome.3boxen.h = 300c
+
+
+
+

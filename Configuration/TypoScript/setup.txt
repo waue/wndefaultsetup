@@ -1,0 +1,18 @@
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:wndefaultsetup/Configuration/TypoScript/scripts.ts">
+
+
+#Fragt Konstante ab
+[globalVar = LIT:Foundation = {$wn.framework}]
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:wndefaultsetup/Configuration/TypoScript/Foundation/setup.ts">
+
+[globalVar = LIT:Bootstrap = {$wn.framework}]
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:wndefaultsetup/Configuration/TypoScript/Bootstrap/setup.ts">
+[global]
+
+
+
+#Slider einbinden
+[globalVar = LIT:SlickSlider = {$wn.orbitHome.slider.type}]
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:wndefaultsetup/Configuration/TypoScript/Slider/Slick/slick.ts">
+[global]

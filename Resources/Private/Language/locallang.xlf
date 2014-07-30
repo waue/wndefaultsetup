@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2014-04-15T08:38:58Z" product-name="wndefaultsetup">
+		<header/>
+		<body>
+<trans-unit id="pages.wnframework">
+                <source>Frameworkq</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

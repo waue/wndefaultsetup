@@ -1,0 +1,43 @@
+
+<div class="row">
+    <div class="large-3 columns">
+      <h1><f:cObject typoscriptObjectPath="lib.Logo" /></h1>
+    </div>
+    <div class="large-9 columns">
+      <f:cObject typoscriptObjectPath="lib.standardMenu" data="{class:'right button-group',atagclass:'button'}" />
+     </div>
+   </div>
+  
+<!-- End Header and Nav -->
+ 
+<!-- First Band (Slider) -->
+  <div class="row">
+    <div class="large-12 columns">
+    <f:render partial="Slider" />
+    <hr />
+    </div>
+  </div>
+<!-- Three-up Content Blocks -->
+ 
+  <div class="row">
+      <f:render partial="3Boxen" />
+    </div>
+
+
+<!--  Content Blocks -->
+<f:render section="content" />
+
+<!-- Footer -->
+<footer class="row">
+  <div class="large-12 columns">
+    <hr />
+    <div class="row">
+      <div class="large-6 columns">
+        <p><f:cObject typoscriptObjectPath="lib.Copyright" /></p>
+      </div>
+      <div class="large-6 columns">
+         <f:cObject typoscriptObjectPath="lib.standardMenu"  data="{class:'inline-list right'}" />
+      </div>
+    </div>
+  </div> 
+</footer>
