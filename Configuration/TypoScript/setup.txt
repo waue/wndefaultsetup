@@ -16,3 +16,5 @@
 [globalVar = LIT:SlickSlider = {$wn.orbitHome.slider.type}]
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:wndefaultsetup/Configuration/TypoScript/Slider/Slick/slick.ts">
 [global]
+
+#gi
